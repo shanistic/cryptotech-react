@@ -124,7 +124,9 @@ const CoinDetails = () => {
 
           <RadioGroup value={currency} onChange={setCurrency} p={"8"}>
             <HStack spacing={"4"}>
-              <Radio value={"inr"}>PKR</Radio>
+              <Radio value={"pkr"} defaultChecked>
+                PKR
+              </Radio>
               <Radio value={"usd"}>USD</Radio>
               <Radio value={"eur"}>EUR</Radio>
             </HStack>
